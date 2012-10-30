@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.hendyirawan.paxwicketl10n</groupId>
 	<artifactId>com.hendyirawan.paxwicketl10n.parent</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>${paxwicketl10n.version}</version>
 	<packaging>pom</packaging>
 	<name>com.hendyirawan.paxwicketl10n Parent</name>
 	<description>Parent project of com.hendyirawan.paxwicketl10n.</description>
@@ -35,10 +35,17 @@
 	</licenses>
 
 	<properties>
+		<paxwicketl10n.version>1.0.0-SNAPSHOT</paxwicketl10n.version>
 	</properties>
 
 	<dependencyManagement>
 		<dependencies>
+			<dependency>
+				<groupId>com.hendyirawan.paxwicketl10n</groupId>
+				<artifactId>com.hendyirawan.paxwicketl10n.morepanel</artifactId>
+				<version>${paxwicketl10n.version}</version>
+			</dependency>
+
 			<dependency>
 				<groupId>org.soluvas</groupId>
 				<artifactId>org.soluvas.web.parent</artifactId>
@@ -53,7 +60,6 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-			
 		</dependencies>
 	</dependencyManagement>
 

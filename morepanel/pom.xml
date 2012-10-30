@@ -7,17 +7,12 @@
 		<version>1.0.0-SNAPSHOT</version>
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
-	<artifactId>com.hendyirawan.paxwicketl10n.app</artifactId>
+	<artifactId>com.hendyirawan.paxwicketl10n.morepanel</artifactId>
 	<packaging>bundle</packaging>
-	<name>com.hendyirawan.paxwicketl10n App</name>
-	<description>com.hendyirawan.paxwicketl10n App</description>
+	<name>com.hendyirawan.paxwicketl10n morepanel</name>
+	<description>com.hendyirawan.paxwicketl10n morepanel</description>
 	
 	<dependencies>
-		<dependency>
-			<groupId>com.hendyirawan.paxwicketl10n</groupId>
-			<artifactId>com.hendyirawan.paxwicketl10n.morepanel</artifactId>
-		</dependency>
-		
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
